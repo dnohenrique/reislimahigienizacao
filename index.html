@@ -759,7 +759,23 @@ class Component extends DCLogic {
     for (let i = 0; i < this.galleryItems.length; i++) {
       vals["g" + i] = () => this.openGallery(i);
     }
-    vals.vPlay = e => { const d=e.currentTarget,v=d.querySelector('video'),b=d.querySelector('.rl-play'); if(v) v.paused?(v.play(),b&&(b.style.opacity='0')):(v.pause(),b&&(b.style.opacity='1')); };
+    vals.vPlay = e => {
+      const d=e.currentTarget,v=d.querySelector('video'),b=d.querySelector('.rl-play');
+      if (!v) return;
+      if (v.paused) {
+        document.querySelectorAll('#videos video').forEach(other => {
+          if (other !== v && !other.paused) {
+            other.pause();
+            other.parentElement?.querySelector('.rl-play')?.style.setProperty('opacity', '1');
+          }
+        });
+        v.play();
+        if (b) b.style.opacity = '0';
+      } else {
+        v.pause();
+        if (b) b.style.opacity = '1';
+      }
+    };
     return vals;
   }
 }
