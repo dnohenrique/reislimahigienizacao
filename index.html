@@ -676,6 +676,11 @@ class Component extends DCLogic {
     }
     this.__escHandler = e => { if (e.key === "Escape") this.closeGallery(); };
     document.addEventListener("keydown", this.__escHandler);
+
+    document.querySelectorAll('#videos video').forEach(v => {
+      const nudge = () => { if (!v.currentTime) v.currentTime = 0.1; };
+      v.readyState >= 1 ? nudge() : v.addEventListener("loadedmetadata", nudge, { once: true });
+    });
   }
 
   componentWillUnmount() {
