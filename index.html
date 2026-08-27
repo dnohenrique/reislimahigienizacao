@@ -424,7 +424,7 @@
 
   <section id="sobre" style="background:#003366; color:#FFFFFF">
     <div style="max-width:1200px; margin:0 auto; padding:clamp(56px,8vw,96px) clamp(16px,4vw,28px); display:grid; grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr)); gap:clamp(32px,5vw,64px); align-items:center">
-      <div style="position:relative; height:clamp(250px,42vw,460px); border-radius:24px; overflow:hidden">
+      <div onClick="{{ openEquipe }}" style="position:relative; height:clamp(250px,42vw,460px); border-radius:24px; overflow:hidden; cursor:zoom-in">
         <img src="./assets/equipe.png" alt="Equipe Reis Lima Higienização" style="width:100%; height:100%; object-fit:cover; object-position:center top; display:block" />
       </div>
       <div style="display:flex; flex-direction:column; gap:22px">
@@ -451,6 +451,12 @@
         </div>
       </div>
     </div>
+    <sc-if value="{{ equipeOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeEquipe }}" style="position:fixed; inset:0; z-index:200; background:rgba(0,20,40,0.92); overflow:auto; padding:clamp(16px,5vw,48px); cursor:zoom-out; text-align:center">
+      <button onClick="{{ closeEquipe }}" aria-label="Fechar" style="position:fixed; top:20px; right:20px; width:44px; height:44px; border-radius:50%; border:none; background:rgba(255,255,255,0.14); color:#FFFFFF; font-size:20px; line-height:1; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:1">✕</button>
+      <img src="./assets/equipe.png" alt="Equipe Reis Lima Higienização" onClick="{{ stopClick }}" style="display:inline-block; border-radius:12px; box-shadow:0 24px 60px rgba(0,0,0,0.5); cursor:default" />
+    </div>
+    </sc-if>
   </section>
 
   <section id="faq" style="background:#F5F5F5; border-top:1px solid #E4E7E9">
@@ -642,7 +648,7 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;whatsappNumber&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;5511982445797&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contato&quot;},&quot;showGallery&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Seções&quot;},&quot;showTestimonials&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Seções&quot;}}">
 class Component extends DCLogic {
-  state = { open: null, nome: "", fone: "", email: "", servico: "Higienização de sofás", msg: "", errors: {}, nearForm: false, lightboxIndex: null };
+  state = { open: null, nome: "", fone: "", email: "", servico: "Higienização de sofás", msg: "", errors: {}, nearForm: false, lightboxIndex: null, equipeOpen: false };
 
   galleryItems = [
     { src: "./assets/g-sofa-antes-depois.jpeg", alt: "Sofá de suede — Antes e depois" },
@@ -665,6 +671,10 @@ class Component extends DCLogic {
 
   closeGallery() { this.setState({ lightboxIndex: null }); }
 
+  openEquipe() { this.setState({ equipeOpen: true }); }
+
+  closeEquipe() { this.setState({ equipeOpen: false }); }
+
   componentDidMount() {
     const target = document.getElementById("contato");
     if (target && typeof IntersectionObserver !== "undefined") {
@@ -674,7 +684,7 @@ class Component extends DCLogic {
       );
       this.__contatoObserver.observe(target);
     }
-    this.__escHandler = e => { if (e.key === "Escape") this.closeGallery(); };
+    this.__escHandler = e => { if (e.key === "Escape") { this.closeGallery(); this.closeEquipe(); } };
     document.addEventListener("keydown", this.__escHandler);
 
     document.querySelectorAll('#videos video').forEach(v => {
@@ -750,6 +760,9 @@ class Component extends DCLogic {
       lightboxSrc: s.lightboxIndex !== null ? this.galleryItems[s.lightboxIndex].src : "",
       lightboxAlt: s.lightboxIndex !== null ? this.galleryItems[s.lightboxIndex].alt : "",
       closeGallery: () => this.closeGallery(),
+      equipeOpen: s.equipeOpen,
+      openEquipe: () => this.openEquipe(),
+      closeEquipe: () => this.closeEquipe(),
       stopClick: e => e.stopPropagation()
     };
     for (let i = 0; i < 6; i++) {
