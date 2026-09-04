@@ -1,0 +1,13 @@
+# Arquivos que NAO devem ir para o site publico.
+# Mesma sintaxe do .gitignore.
+
+.assetsignore
+.git
+.gitignore
+
+# gerador das paginas e backup da home
+_build
+
+# configuracao e documentacao do projeto
+wrangler.toml
+README.md

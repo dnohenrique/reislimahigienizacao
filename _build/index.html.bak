@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +9,10 @@
 <x-dc>
 <helmet>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Higienização de Estofados e Vidros em São Paulo | Reis Lima</title>
+<title>Estofados, Colchões e Vidros em São Paulo | Reis Lima Higienização </title>
 <meta name="description" content="Higienização de estofados, colchões, cadeiras e tapetes, além de limpeza e cristalização de vidros e fachadas em São Paulo e região. Solicite um orçamento pelo WhatsApp." />
 <meta name="keywords" content="higienização de estofados, limpeza de sofá, higienização de colchão, limpeza de vidros, cristalização de vidros, limpeza de fachada, limpeza de persianas, São Paulo" />
-<meta name="robots" content="index, follow, max-image-preview:large" />
-<meta name="geo.region" content="BR-SP" />
-<meta name="geo.placename" content="São Paulo" />
+<meta name="robots" content="index, follow" />
 <meta name="author" content="Reis Lima Higienização" />
 <link rel="canonical" href="https://reislimahigienizacao.com.br/" />
 <meta property="og:type" content="website" />
@@ -51,7 +49,6 @@
   p { margin: 0; }
   @keyframes rl-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
 </style>
-<script type="application/ld+json">[{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","@id":"https://reislimahigienizacao.com.br/#negocio","name":"Reis Lima Higienização","alternateName":"Reis Lima","url":"https://reislimahigienizacao.com.br/","image":"https://reislimahigienizacao.com.br/assets/hero-sofa-vista.jpeg","logo":"https://reislimahigienizacao.com.br/assets/logo-reis-lima-hi.png","description":"Higienização de estofados, colchões, cadeiras e tapetes, impermeabilização e limpeza e cristalização de vidros e fachadas em São Paulo e região.","telephone":"+5511982445797","email":"reislimahigienizacao@gmail.com","taxID":"43.846.059/0001-08","priceRange":"$$","address":{"@type":"PostalAddress","addressLocality":"São Paulo","addressRegion":"SP","addressCountry":"BR"},"geo":{"@type":"GeoCoordinates","latitude":-23.5505,"longitude":-46.6333},"areaServed":[{"@type":"City","name":"São Paulo"},{"@type":"AdministrativeArea","name":"Grande São Paulo"},{"@type":"AdministrativeArea","name":"ABC Paulista"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"19:00"}],"foundingDate":"2021","sameAs":["https://wa.me/5511982445797"]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quais regiões vocês atendem?","acceptedAnswer":{"@type":"Answer","text":"Atendemos São Paulo e região, incluindo Zona Sul, Zona Oeste, Zona Norte, Centro e o ABC Paulista. Envie o endereço pelo WhatsApp e confirmamos a disponibilidade."}},{"@type":"Question","name":"Qual é o horário de atendimento?","acceptedAnswer":{"@type":"Answer","text":"Nosso atendimento é de segunda a sábado, das 8h às 19h. O agendamento do serviço é feito no horário mais conveniente para você dentro desse período."}},{"@type":"Question","name":"Como é feito o orçamento?","acceptedAnswer":{"@type":"Answer","text":"O orçamento é gratuito e sem compromisso. Basta informar o tipo de serviço, a quantidade de peças ou a metragem e, se possível, enviar fotos pelo WhatsApp."}},{"@type":"Question","name":"Quanto tempo o estofado leva para secar?","acceptedAnswer":{"@type":"Answer","text":"O tempo varia conforme o tecido, a ventilação e o clima do dia. Usamos processo de extração que reduz bastante a umidade e orientamos você sobre os cuidados até a secagem completa."}},{"@type":"Question","name":"Vocês atendem empresas e condomínios?","acceptedAnswer":{"@type":"Answer","text":"Sim. Atendemos comércios, escritórios e condomínios, inclusive em contratos de manutenção periódica de estofados, vidros e fachadas."}},{"@type":"Question","name":"Quanto custa a higienização de um sofá?","acceptedAnswer":{"@type":"Answer","text":"O valor depende do número de lugares, do tipo de tecido e do estado do estofado. Envie uma foto pelo WhatsApp e enviamos o preço fechado, sem compromisso."}}]},{"@context":"https://schema.org","@type":"WebSite","name":"Reis Lima Higienização","url":"https://reislimahigienizacao.com.br/","inLanguage":"pt-BR","publisher":{"@id":"https://reislimahigienizacao.com.br/#negocio"}}]</script>
 </helmet>
 <div style="width:100%; overflow-x:hidden">
   <header style="position:sticky; top:0; z-index:50; background:rgba(255,255,255,0.92); backdrop-filter:blur(12px); border-bottom:1px solid #E4E7E9">
@@ -149,38 +146,33 @@
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(270px,100%),1fr)); gap:22px">
         <div style="background:#FFFFFF; border:1px solid #DFE3E6; border-radius:20px; padding:32px 28px 30px; display:flex; flex-direction:column; gap:12px; transition:transform 0.22s ease, box-shadow 0.22s ease" style-hover="transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,114,255,0.12)">
           <span style="width:38px; height:4px; border-radius:99px; background:linear-gradient(90deg,#00C6FF,#0072FF)"></span>
-          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px"><a href="/cristalizacao-de-vidros/" style="color:#003366">Limpeza e cristalização de vidros e fachadas</a></h3>
+          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px">Limpeza e cristalização de vidros e fachadas</h3>
           <p style="font-size:15px; line-height:1.65; color:#5B6B79">Remoção de manchas, sujeira e resíduos com cristalização que protege o vidro e devolve o brilho. Ideal para residências, comércios e condomínios.</p>
         </div>
         <div style="background:#FFFFFF; border:1px solid #DFE3E6; border-radius:20px; padding:32px 28px 30px; display:flex; flex-direction:column; gap:12px; transition:transform 0.22s ease, box-shadow 0.22s ease" style-hover="transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,114,255,0.12)">
           <span style="width:38px; height:4px; border-radius:99px; background:linear-gradient(90deg,#00C6FF,#0072FF)"></span>
-          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px"><a href="/higienizacao-de-estofados/" style="color:#003366">Higienização de sofás</a></h3>
+          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px">Higienização de sofás</h3>
           <p style="font-size:15px; line-height:1.65; color:#5B6B79">Limpeza profunda com extração, removendo poeira, ácaros, manchas e odores do tecido sem agredir o estofado.</p>
         </div>
         <div style="background:#FFFFFF; border:1px solid #DFE3E6; border-radius:20px; padding:32px 28px 30px; display:flex; flex-direction:column; gap:12px; transition:transform 0.22s ease, box-shadow 0.22s ease" style-hover="transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,114,255,0.12)">
           <span style="width:38px; height:4px; border-radius:99px; background:linear-gradient(90deg,#00C6FF,#0072FF)"></span>
-          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px"><a href="/higienizacao-de-colchoes/" style="color:#003366">Higienização de colchões</a></h3>
+          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px">Higienização de colchões</h3>
           <p style="font-size:15px; line-height:1.65; color:#5B6B79">Tratamento antiácaro e antifungos para um sono mais saudável, especialmente indicado para quem tem alergia ou rinite.</p>
         </div>
         <div style="background:#FFFFFF; border:1px solid #DFE3E6; border-radius:20px; padding:32px 28px 30px; display:flex; flex-direction:column; gap:12px; transition:transform 0.22s ease, box-shadow 0.22s ease" style-hover="transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,114,255,0.12)">
           <span style="width:38px; height:4px; border-radius:99px; background:linear-gradient(90deg,#00C6FF,#0072FF)"></span>
-          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px"><a href="/higienizacao-de-cadeiras/" style="color:#003366">Higienização de cadeiras</a></h3>
+          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px">Higienização de cadeiras</h3>
           <p style="font-size:15px; line-height:1.65; color:#5B6B79">Cadeiras de jantar, poltronas e cadeiras de escritório. Atendemos empresas com contratos de manutenção periódica.</p>
         </div>
         <div style="background:#FFFFFF; border:1px solid #DFE3E6; border-radius:20px; padding:32px 28px 30px; display:flex; flex-direction:column; gap:12px; transition:transform 0.22s ease, box-shadow 0.22s ease" style-hover="transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,114,255,0.12)">
           <span style="width:38px; height:4px; border-radius:99px; background:linear-gradient(90deg,#00C6FF,#0072FF)"></span>
-          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px"><a href="/limpeza-de-tapetes/" style="color:#003366">Higienização de tapetes</a></h3>
+          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px">Higienização de tapetes</h3>
           <p style="font-size:15px; line-height:1.65; color:#5B6B79">Lavagem adequada para cada tipo de fibra, com secagem controlada para preservar cor, textura e trama.</p>
         </div>
         <div style="background:#FFFFFF; border:1px solid #DFE3E6; border-radius:20px; padding:32px 28px 30px; display:flex; flex-direction:column; gap:12px; transition:transform 0.22s ease, box-shadow 0.22s ease" style-hover="transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,114,255,0.12)">
           <span style="width:38px; height:4px; border-radius:99px; background:linear-gradient(90deg,#D4AF37,#C1A467)"></span>
-          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px"><a href="/impermeabilizacao-de-estofados/" style="color:#003366">Impermeabilização de estofados</a></h3>
+          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px">Impermeabilização de estofados</h3>
           <p style="font-size:15px; line-height:1.65; color:#5B6B79">Proteção que repele líquidos e facilita a limpeza do dia a dia, prolongando a vida útil do seu estofado.</p>
-        </div>
-        <div style="background:#FFFFFF; border:1px solid #DFE3E6; border-radius:20px; padding:32px 28px 30px; display:flex; flex-direction:column; gap:12px; transition:transform 0.22s ease, box-shadow 0.22s ease" style-hover="transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,114,255,0.12)">
-          <span style="width:38px; height:4px; border-radius:99px; background:linear-gradient(90deg,#00C6FF,#0072FF)"></span>
-          <h3 style="font-size:clamp(18px,2.1vw,21px); font-weight:700; color:#003366; padding-top:8px"><a href="/limpeza-de-fachadas/" style="color:#003366">Limpeza de fachadas de vidro</a></h3>
-          <p style="font-size:15px; line-height:1.65; color:#5B6B79">Fachadas envidraçadas de prédios, lojas e condomínios, com limpeza pós-obra e cristalização opcional.</p>
         </div>
       </div>
     </div>
@@ -467,17 +459,6 @@
     </sc-if>
   </section>
 
-  <section id="regioes" style="background:#FFFFFF; border-top:1px solid #E4E7E9">
-    <div style="max-width:1200px; margin:0 auto; padding:clamp(50px,7vw,84px) clamp(16px,4vw,28px)">
-      <div style="display:flex; flex-direction:column; gap:14px; max-width:680px; margin-bottom:26px">
-        <span style="font-size:13px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#00C6FF">Onde atendemos</span>
-        <h2 style="font-size:clamp(25px,4.4vw,40px); line-height:1.12; font-weight:800; color:#003366">Higienização em toda São Paulo e região</h2>
-        <p style="font-size:clamp(15.5px,1.7vw,17px); line-height:1.65; color:#5B6B79">Atendemos a capital, a Grande São Paulo e o ABC Paulista. Veja a página da sua região e peça o orçamento pelo WhatsApp.</p>
-      </div>
-      <div><a href="/higienizacao-de-estofados-zona-sul/" style="display:inline-block; font-size:15px; font-weight:600; color:#003366; background:#FFFFFF; border:1px solid #DFE3E6; border-radius:999px; padding:11px 20px; margin:0 10px 10px 0">Zona Sul de SP</a><a href="/higienizacao-de-estofados-zona-oeste/" style="display:inline-block; font-size:15px; font-weight:600; color:#003366; background:#FFFFFF; border:1px solid #DFE3E6; border-radius:999px; padding:11px 20px; margin:0 10px 10px 0">Zona Oeste e Alphaville</a><a href="/higienizacao-de-estofados-zona-norte-centro/" style="display:inline-block; font-size:15px; font-weight:600; color:#003366; background:#FFFFFF; border:1px solid #DFE3E6; border-radius:999px; padding:11px 20px; margin:0 10px 10px 0">Zona Norte e Centro</a><a href="/higienizacao-de-estofados-abc-paulista/" style="display:inline-block; font-size:15px; font-weight:600; color:#003366; background:#FFFFFF; border:1px solid #DFE3E6; border-radius:999px; padding:11px 20px; margin:0 10px 10px 0">ABC Paulista</a></div>
-    </div>
-  </section>
-
   <section id="faq" style="background:#F5F5F5; border-top:1px solid #E4E7E9">
     <div style="max-width:940px; margin:0 auto; padding:clamp(54px,8vw,92px) clamp(16px,4vw,28px)">
       <div style="display:flex; flex-direction:column; gap:14px; margin-bottom:40px">
@@ -632,28 +613,18 @@
       </div>
       <div style="display:flex; flex-direction:column; gap:12px">
         <span style="font-family:'Plus Jakarta Sans'; font-size:15px; font-weight:700; color:#FFFFFF">Serviços</span>
-        <a href="/higienizacao-de-estofados/" style="font-size:14.5px; color:#9FD3EA">Higienização de estofados e sofás</a>
-        <a href="/higienizacao-de-colchoes/" style="font-size:14.5px; color:#9FD3EA">Higienização de colchões</a>
-        <a href="/higienizacao-de-cadeiras/" style="font-size:14.5px; color:#9FD3EA">Higienização de cadeiras e poltronas</a>
-        <a href="/limpeza-de-tapetes/" style="font-size:14.5px; color:#9FD3EA">Limpeza de tapetes</a>
-        <a href="/impermeabilizacao-de-estofados/" style="font-size:14.5px; color:#9FD3EA">Impermeabilização de estofados</a>
-        <a href="/cristalizacao-de-vidros/" style="font-size:14.5px; color:#9FD3EA">Cristalização e limpeza de vidros</a>
-        <a href="/limpeza-de-fachadas/" style="font-size:14.5px; color:#9FD3EA">Limpeza de fachadas de vidro</a>
-      </div>
-      <div style="display:flex; flex-direction:column; gap:12px">
-        <span style="font-family:'Plus Jakarta Sans'; font-size:15px; font-weight:700; color:#FFFFFF">Regiões atendidas</span>
-        <a href="/higienizacao-de-estofados-zona-sul/" style="font-size:14.5px; color:#9FD3EA">Zona Sul de SP</a>
-        <a href="/higienizacao-de-estofados-zona-oeste/" style="font-size:14.5px; color:#9FD3EA">Zona Oeste e Alphaville</a>
-        <a href="/higienizacao-de-estofados-zona-norte-centro/" style="font-size:14.5px; color:#9FD3EA">Zona Norte e Centro</a>
-        <a href="/higienizacao-de-estofados-abc-paulista/" style="font-size:14.5px; color:#9FD3EA">ABC Paulista</a>
+        <a href="#servicos" style="font-size:14.5px; color:#9FD3EA">Higienização de sofás</a>
+        <a href="#servicos" style="font-size:14.5px; color:#9FD3EA">Higienização de colchões</a>
+        <a href="#servicos" style="font-size:14.5px; color:#9FD3EA">Higienização de cadeiras e tapetes</a>
+        <a href="#servicos" style="font-size:14.5px; color:#9FD3EA">Impermeabilização de estofados</a>
+        <a href="#servicos" style="font-size:14.5px; color:#9FD3EA">Vidros e fachadas</a>
       </div>
       <div style="display:flex; flex-direction:column; gap:12px">
         <span style="font-family:'Plus Jakarta Sans'; font-size:15px; font-weight:700; color:#FFFFFF">Contato</span>
-        <a href="https://wa.me/5511982445797?text=Ol%C3%A1%21%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" style="font-size:14.5px; color:#9FD3EA">WhatsApp (11) 98244-5797</a>
-        <a href="tel:+5511981686274" style="font-size:14.5px; color:#9FD3EA">Telefone (11) 98168-6274</a>
+        <a href="#contato" onClick="{{ goToForm }}" style="font-size:14.5px; color:#9FD3EA">WhatsApp 11 98244-5797</a>
+        <a href="tel:+5511982445797" style="font-size:14.5px; color:#9FD3EA">Telefone 11 98168-6274</a>
         <a href="mailto:reislimahigienizacao@gmail.com" style="font-size:14.5px; color:#9FD3EA">reislimahigienizacao@gmail.com</a>
-        <span style="font-size:14.5px; line-height:1.6">São Paulo — SP<br />Capital, Grande SP e ABC</span>
-        <span style="font-size:14.5px">CNPJ 43.846.059/0001-08</span>
+        <span style="font-size:14.5px">São Paulo</span>
         <span style="font-size:14.5px">Atendimento das 8h às 19h</span>
       </div>
     </div>
